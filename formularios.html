@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href=""><li>HOME</li></a>
+                    <a href=""><li>PÁRRAFOS</li></a>
+                    <a href=""><li>ENLACES</li></a>
+                    <a href=""><li>IMAGENES</li></a>
+                    <a href=""><li>LISTAS</li></a>
+                    <a href=""><li>TABLAS</li></a>
+                    <a href=""><li>FORMULARIOS</li></a>
+                    <a href=""><li>MULTIMEDIA</li></a>
+                    <a href=""><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="form">
+                    <h1 class="txt-center">Formularios</h1>
+                    <h2>Form login</h2>
+                  <form action="pagina.html" method="get">
+                  User <input type="text" name="user" /><br /><br />
+                  Password <input type="password" name="clave" /><br /><br />
+                    <p class="txt-center"><input type="submit" value="Aceptar" /></p>
+                </form>
+                    <h2>Form Registro</h2>
+                    <form class="w-60" action="pagina.html" method="post">
+                    <fieldset>
+                        <legend>Register:</legend>
+                        User <input type="text" name="user" placeholder="user"/><br /><br />
+                        Password <input type="password" name="clave" placeholder="password" /><br /><br />
+                          <textarea name="comentario" id="" cols="30" rows="3"></textarea><br />
+                        </form>
+                        <fieldset class="registro" action="pagina.html" method="post">
+                        Deportes:<br />
+                            <input type="checkbox" name="Aficiones" value="Fútbol" id=""> Fútbol<br />
+                            <input type="checkbox" name="Aficiones" value="Baloncesto" id=""> Baloncesto<br />
+                            <input type="checkbox" name="Aficiones" value="Pádel" id=""> Pádel<br />
+                            <input type="checkbox" name="Aficiones" value="Natación" id=""> Natación<br />
+                        Elige tu color favorito:<br />
+                            <input type="radio" name="colores" value="Azul" id=""> Azul<br />
+                            <input type="radio" name="colores" value="Rojo" id=""> Rojo<br />
+                            <input type="radio" name="colores" value="Magenta" id=""> Magenta<br />
+                            <input type="radio" name="colores" value="Verde" id=""> Verde<br />
+                         Días de la semana:
+                         <select name="dias" id="">
+                            <option value="1">Lunes</option>
+                            <option value="2">Martes</option> 
+                            <option value="3">Miércoles</option> 
+                            <option value="4">Jueves</option> 
+                            <option value="5">Viernes</option> 
+                            <option value="6">Sábado</option> 
+                            <option value="7">Domingo</option> 
+                        </select>
+                        Días de la semana:
+                        <select name="dias" multiple>
+                            <option value="1">Lunes</option>
+                            <option value="2">Martes</option> 
+                            <option value="3">Miércoles</option> 
+                            <option value="4">Jueves</option> 
+                            <option value="5">Viernes</option> 
+                            <option value="6">Sábado</option> 
+                            <option value="7">Domingo</option> 
+                        </select>
+                        <p class="txt-center"><input type="submit" value="Aceptar"></p>
+                    </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Arantxa Muñoz - S1DAM</footer>
+    </div>
+</body>
+</html>

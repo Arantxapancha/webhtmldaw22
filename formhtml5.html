@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script>
+        function updateTxtRange(valor){
+            document.getElementById('idrange').value = valor
+        }
+    </script>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href=""><li>HOME</li></a>
+                    <a href=""><li>PÁRRAFOS</li></a>
+                    <a href=""><li>ENLACES</li></a>
+                    <a href=""><li>IMAGENES</li></a>
+                    <a href=""><li>LISTAS</li></a>
+                    <a href=""><li>TABLAS</li></a>
+                    <a href=""><li>FORMULARIOS</li></a>
+                    <a href=""><li>MULTIMEDIA</li></a>
+                    <a href=""><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formhtml5">
+                    <h1 class="txt-center">Formularios HTML5</h1>
+                    <form action="pagina.php" method="get" enctype="multipart/form-data">
+                        <fieldset>
+                            <legend>FormHTML5</legend>
+                            <input type="url" name="url" id="" placeholder="url">
+                            <p><input type="email" name="email" id="" placeholder="email"></p>
+                            <p><input type="datatime-local" name="fechahoralocal" id=""></input></p>
+                            <p><input type="month" name="mes" id="" placeholder="mes"></p>
+                            <p><input type="week" name="semana" id="" placeholder="semana"></p>
+                            <p><input type="color" name="color" id=""></p>
+                            <p><input type="number" name="numero" id="" min="0" max="100" step="10"></p>
+                            <p><input type="range" name="rango" id="" min="0" max="100" step="10" onchange="updateTxtRange(this.value)"></p>
+                            <p><input type="text"  id="idrange" disabled></p>
+                            <p><input type="file" name="fichero" id=""></p>
+                            <p><input type="hidden" name="var" value="kk"></p>
+                            <p><input type="image" src="img/logoamazon.jpg" alt="" name="imagen"></p>
+                            <p><input type="search" name="buscar" id="" placeholder="search..."></p>
+                            <p><input type="reset" value="clear"><input type="submit" value="Enviar"></p>
+                        </fieldset>
+                    </form>
+                </div>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Arantxa Muñoz - S1DAM</footer>
+    </div>
+</body>
+</html>
