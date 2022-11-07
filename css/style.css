@@ -11,7 +11,7 @@ a {
 .container {
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(162, 157, 221);
+    background-color: rgb(115, 218, 234);
 }
 header {
     background-image: url(../img/fondo2.jpg);
@@ -46,7 +46,7 @@ nav {
 }
 
 #home {
-    background-color: rgb(115, 109, 184);
+    background-color: rgb(115, 218, 234);
     /* Altura igual que tu padre flex*/
     text-align: center;
     padding-top: 40px;
