@@ -50,6 +50,7 @@ nav {
     /* Altura igual que tu padre flex*/
     text-align: center;
     padding-top: 40px;
+    width: 40%;
 }
 .cb {
     clear: both;
