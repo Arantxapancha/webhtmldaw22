@@ -49,8 +49,8 @@ nav {
     background-color: rgb(115, 218, 234);
     /* Altura igual que tu padre flex*/
     text-align: center;
-    padding-top: 40px;
-    width: 40%;
+    padding-top: 80px;
+    width: 80%;
 }
 .cb {
     clear: both;
